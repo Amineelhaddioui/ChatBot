@@ -1,0 +1,351 @@
+{
+  "intents": [
+    {
+      "tag": "salutation",
+      "patterns": [
+        "bonjour",
+        "bjr",
+        "salut",
+        "slt",
+        "bonsoir",
+        "bsr",
+        "hey",
+        "hi",
+        "hay",
+        "cc",
+        "coucou",
+        "wesh"
+      ],
+      "responses": [
+        "bonjour,bienvenue chez MOHAIL Entreprise, en quoi puis je vous aidez?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "salutation_informelle",
+      "patterns": [
+        "wesh! ca va?",
+        "ca va?",
+        "comment vas tu?",
+        "comment te sens tu?",
+        "tu vas bien?",
+        "tout va bien?",
+        "ca roule?",
+        "ca marche?",
+        "comment allez vous?",
+        "comment vous sentez vous?",
+        "vous allez bien?"
+      ],
+      "responses": [
+        "je vais bien merci et toi",
+        "je vais bien merci et vous",
+        "je me sens bien",
+        "oui ca va",
+        "oui et toi?",
+        "oui",
+        "tranquille",
+        "oui et vous"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "au_revoir",
+      "patterns": [
+        "au revoir",
+        "bye",
+        "A plus",
+        "A plus tard",
+        "A tout a l'heure ",
+        "bye bye",
+        "A toute",
+        "A la prochaine",
+        "A bientot Neham ",
+        "au revoir Neham",
+        "A bientot"
+      ],
+      "responses": [
+        "au revoir, j'espere que j'ai repondu a toutes vos attentes",
+        "Passer bonne journee, MOHAIL Entreprise vous remercie",
+        "Passer bonne journee, j'espere avoir repondu a toutes vos attentes, MOHAIL Entreprise vous remercie"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "nom",
+      "patterns": [
+        "quel est ton nom?",
+        "tu t'appelles comment?",
+        "comment t'appelles tu?",
+        "comment je devrais t'appeller?",
+        "comment dois je t'appeller?",
+        "c'est quoi ton nom?",
+        "quel est votre nom?",
+        " comment vous appellez vous?",
+        "dit moi ton nom?",
+        "comment dois je vous appeller?",
+        "comment devrais je vous appeller?",
+        "c'est quoi votre nom?",
+        "nom"
+      ],
+      "responses": [
+        "je suis Neham",
+        "je m'appelle Neham",
+        "Neham",
+        "c'est Neham",
+        "mon nom? Neham",
+        "tu peux m'appeller Neham",
+        "je suis Neham,de chez MOHAIL Entreprise"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Age",
+      "patterns": [
+        "quel est ton age?",
+        "age?",
+        "quel age as tu?"
+      ],
+      "responses": [
+        "on vient de me creer,je suis encore qu'un bebe de quelque semaines",
+        "quelle question!!! J'ai que quelque jours "
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "presentation",
+      "patterns": [
+        "presente toi",
+        "t'es qui?",
+        "vous etes qui?",
+        "qui etes vous?",
+        "qui es tu?"
+      ],
+      "responses": [
+        "je suis Neham, l'assistant virtuel de chez MOHAIL Entreprise, j'ai que quelque jours"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "utiliter",
+      "patterns": [
+        "que sais tu faire?",
+        "quel est t'on utilite?",
+        "a quoi sers tu?"
+      ],
+      "responses": [
+        "je suis Neham, l'assistant virtuel de chez MOHAIL Entreprise, je suis la pour repondre a toutes vos questions au sujet de notre societe Telecom"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "facture",
+      "patterns": [
+        "je n'ai pas compris le montant de ma facture",
+        "explique moi le montant de ma facture",
+        "j'ai un probleme avec ma facture",
+        "facture",
+        "facture trop cher",
+        "explication facture",
+        "explique facture"
+      ],
+      "responses": [
+        "tout d'abord votre facture est disponible dans votre espace client, vous pouvez la consulter; si vous ne la comprennez toujours pas veuillez contacter le service client"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "explication",
+      "patterns": [
+        "j'ai besoin d'une explication"
+      ],
+      "responses": [
+        "une explication par rapport a quoi?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "probleme",
+      "patterns": [
+        "j'ai un probleme",
+        "probleme"
+      ],
+      "responses": [
+        "ne t'inquiete pas, on va essayer de le resoudre",
+        "en quoi puis je vous aidez?",
+        " il s'agit de quel probleme? Et comment puis je vous aider?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "resiliation",
+      "patterns": [
+        "je veux resilier mon contrat? ",
+        "je veux quitter votre operateur",
+        "resiliation",
+        "resilier",
+        "quitter MOHAIL",
+        "resilier contrat",
+        "resiliation du contrat",
+        "resiliation contrat"
+      ],
+      "responses": [
+        "je suis navre  pour cette volonte de nous quitter, veuillez contacter un agent du service retention et negotiation"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "achat_tele",
+      "patterns": [
+        "j'ai envie d'un nouveau telephone",
+        "acheter telephone ",
+        "acheter phone",
+        "nouveau telephone",
+        "comment acheter un nouveau telephone"
+      ],
+      "responses": [
+        "ravi de l'entendre, nous proposons un large gamme de telephone; vous pouvez appeler notre service client ou visiter notre site web pour faire votre choix"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "souscription",
+      "patterns": [
+        "nouveau numero",
+        "sourcription",
+        "nouvelle ligne",
+        "nouveau forfait",
+        "nouvelle souscription"
+      ],
+      "responses": [
+        "Bienvenue chez MOHAIL Entreprise, vous pouvez appeler notre service client ou visiter notre site web pour avoir une idee plus en details des services que nous proposons "
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "p_technique",
+      "patterns": [
+        "probleme technique",
+        "ma ligne ne marche pas",
+        "mon numero ne marche pas",
+        "ma ligne est coupee",
+        "je n'ai plus internet",
+        "je n'ai plus de reseau",
+        "vos service ne marche pas",
+        "rien ne marche ",
+        " pas acces internet",
+        "je ne peux plus appeler",
+        "no service",
+        "pas de service",
+        "je n'ai plus acces internet",
+        "probleme de connexion",
+        "impossible d'appeler",
+        "probleme reseau",
+        "debit faible",
+        "connexion lente",
+        "connexion faible"
+      ],
+      "responses": [
+        "j'en suis navre, je vais vous mettre en contact avec un agent du service technique; desole pour la gene occasionner",
+        "il a ete constater un probleme technique sur toute votre region; notre service technique s'emploie a le resoudre, veuillez nous excuser pour la gene occasionner"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "s_clt",
+      "patterns": [
+        "numero service client",
+        "service client",
+        "contacter service client",
+        "appeler service client"
+      ],
+      "responses": [
+        "voici le numero du service client: 1023; l'appel vers ce numero est gratuit si vous utilisez une ligne de chez MOHAIL"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "s_ret",
+      "patterns": [
+        "numero service retention et negociation",
+        "service retention et negociation",
+        "contacter service retention et negociation",
+        "appeler service retention et negociation",
+        "retention et negociation",
+        "ret",
+        "nego",
+        "ret nego"
+      ],
+      "responses": [
+        "voici le numero du service retention et negociation: 1044; l'appel vers ce numero est gratuit si vous utilisez une ligne de chez MOHAIL"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "s_tec",
+      "patterns": [
+        "numero service technique",
+        "service technique",
+        "contacter service technique",
+        "appeler service technique"
+      ],
+      "responses": [
+        "voici le numero du service technique: 1084; l'appel vers ce numero est gratuit si vous utilisez une ligne de chez MOHAIL"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "promotion",
+      "patterns": [
+        "quels sont les offre du moments",
+        "quels sont les promotions du moment",
+        "promotion",
+        "offre special",
+        "promotion actuelle"
+      ],
+      "responses": [
+        "Pour votre fideliter, notre societe MOHAIL Entreprise vous fait des offres specialles tout au long de l'annee lors des fetes et des dates anniversaire de votre forfait; pour plus de details veuillez vous rendre sur notre site web: la liste des promotions s'y trouve "
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "payment_f",
+      "patterns": [
+        "quand je dois payer la facture",
+        "date de paiement de ma facture",
+        "date de paiement facture",
+        "date payer facture",
+        "jour de paiement de facture",
+        "jour payer facture"
+      ],
+      "responses": [
+        "la facture doit etre payee au plus tard 12 jours apres son emission"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "date_f",
+      "patterns": [
+        "quand sera editer ma facture",
+        "date edition facture",
+        "date facture",
+        "date disponibiliter facture",
+        " prochaine facture"
+      ],
+      "responses": [
+        "votre prochaine facture sera editer soit le 1er ou le 18 de chaque mois, selon le jour de souscription au forfait"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "anniv_f",
+      "patterns": [
+        "anniversaire forfait",
+        "cadeaux d'anniversaire"
+      ],
+      "responses": [
+        "apres chaque annee passer avec nous, MOHAIL vous offre plain de cadeaux tel que des minutes d'appel, de la data "
+      ],
+      "context_set": ""
+    }
+  ]
+}
